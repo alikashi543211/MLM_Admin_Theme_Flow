@@ -1,0 +1,95 @@
+.h1,
+.h2,
+.h3,
+.h4,
+body,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Quicksand;
+    font-weight: 400;
+}
+.table thead th {
+    border-top-width: 1px !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+.table>tbody>tr>td {
+    font-weight: 500;
+}
+.card-title,
+.error {
+    font-weight: bold;
+}
+.form-control {
+    border: 1px solid #e7e7e7;
+    border-radius: 0px;
+    padding: 4px 10px;
+}
+input.form-control,
+textarea.form-control,
+select.form-control{
+    background-image: none !important;
+}
+input.form-control,
+select.form-control {
+    height: calc(2.4375rem + 1px) !important;
+}
+label,
+.bmd-label-static{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+    color: #000;
+}
+.select2-hidden-accessible{
+    display: none;
+}
+.select2-container,
+.select2-container--default .select2-selection--single,
+.select2-container .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: calc(2.4375rem + 1px) !important;
+    border-radius: 0px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: calc(2.4375rem + 1px) !important;
+}
+.login_row
+{
+    height: 100vh;
+    align-content: center;
+}
+.bmd-form-group [class^='bmd-label'], .bmd-form-group [class*=' bmd-label'] 
+{
+    position: initial;
+}
+.card .card-header-warning .card-icon, .card .card-header-warning .card-text, .card .card-header-warning:not(.card-header-icon):not(.card-header-text), .card.bg-warning, .card.card-rotate.bg-warning .front, .card.card-rotate.bg-warning .back {
+    background: linear-gradient(60deg, #f7f7f7, #1f1f1f) !important;
+}
+
+.btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:hover {
+    color: #fff;
+    background-color: #090909;
+    border-color: #090909;
+}
+.btn.btn-primary {
+    color: #fff;
+    background-color: #0a0a0a;
+    border-color: #0a0a0a;
+    font-weight: bolder;
+}
+.btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary:hover {
+    box-shadow: none !important;
+}
+.error
+{
+    background: #fb5a5a;
+    color: white !important;
+}
