@@ -1,3 +1,4 @@
+
 .h1,
 .h2,
 .h3,
@@ -71,22 +72,19 @@ label,
     position: initial;
 }
 .card .card-header-warning .card-icon, .card .card-header-warning .card-text, .card .card-header-warning:not(.card-header-icon):not(.card-header-text), .card.bg-warning, .card.card-rotate.bg-warning .front, .card.card-rotate.bg-warning .back {
-    background: linear-gradient(60deg, #f7f7f7, #1f1f1f) !important;
+    background: linear-gradient(60deg, #f16001, #f16001) !important;
 }
-
 .btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:hover {
     color: #fff;
-    background-color: #090909;
-    border-color: #090909;
+    background-color: #001e92;
+    border-color: #001e92;
 }
 .btn.btn-primary {
     color: #fff;
-    background-color: #0a0a0a;
-    border-color: #0a0a0a;
-    font-weight: bolder;
-}
-.btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary:hover {
-    box-shadow: none !important;
+    background-color: #001e92;
+    border-color: #001e92;
+    font-weight:bolder;
+    box-shadow: 0 2px 2px 0 rgb(0 30 146 / 47%), 0 3px 1px -2px #001e9296, 0 1px 5px 0 #001e928c;
 }
 .error
 {
